@@ -72,9 +72,9 @@ private static final String KEY_GAMES_SPOOF = "use_games_spoof";
         mPhotosSpoof.setChecked(SystemProperties.getBoolean(SYS_PHOTOS_SPOOF, true));
         mPhotosSpoof.setOnPreferenceChangeListener(this);
         
-        mPhotosSpoof = (SwitchPreference) prefScreen.findPreference(KEY_STREAM_SPOOF);
-        mPhotosSpoof.setChecked(SystemProperties.getBoolean(SYS_STREAM_SPOOF, true));
-        mPhotosSpoof.setOnPreferenceChangeListener(this);
+        mStreamSpoof = (SwitchPreference) prefScreen.findPreference(KEY_STREAM_SPOOF);
+        mStreamSpoof.setChecked(SystemProperties.getBoolean(SYS_STREAM_SPOOF, true));
+        mStreamSpoof.setOnPreferenceChangeListener(this);
     }
 
     @Override
