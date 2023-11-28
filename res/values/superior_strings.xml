@@ -324,8 +324,8 @@
     
     <string name="use_stream_spoof_title">Unlock higher quality streams</string>
     <string name="use_stream_spoof_summary">Spoof your device to unlock higher quality streams on Amazon Prime, Disney+, Hotstar, and Netflix</string>
-    <string name="games_device_spoof_title">Unlock higher FPS in games</string>
-    <string name="games_device_spoof_summary">Spoof device as a high-end model in certain games, to unlock higher FPS</string>
+    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
+    <string name="use_games_spoof_summary">Spoof device as a high-end model in certain games, to unlock higher FPS</string>
 	
 	<!-- Quick QS pulldown -->
     <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
