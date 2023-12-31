@@ -65,7 +65,7 @@ private static final String KEY_GAMES_SPOOF = "use_games_spoof";
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mGamesSpoof = (SwitchPreference) prefScreen.findPreference(KEY_GAMES_SPOOF);
-        mGamesSpoof.setChecked(SystemProperties.getBoolean(SYS_GAMES_SPOOF, false));
+        mGamesSpoof.setChecked(SystemProperties.getBoolean(SYS_GAMES_SPOOF, true));
         mGamesSpoof.setOnPreferenceChangeListener(this);
 
         mPhotosSpoof = (SwitchPreference) prefScreen.findPreference(KEY_PHOTOS_SPOOF);
